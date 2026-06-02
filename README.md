@@ -53,13 +53,12 @@ Verificación:
 ```bash
 docker --version
 ```
-
+![Docker Version](imagenes/docker-version.png)
 Resultado obtenido:
 
 ```text
 Docker version 28.1.1
 ```
-
 ## Instalación de Docker Compose
 
 Verificación:
@@ -67,8 +66,8 @@ Verificación:
 ```bash
 docker compose version
 ```
-
 Resultado obtenido:
+![Docker Compose](imagenes/docker-compose-version.png)
 
 ```text
 Docker Compose version v2.35.1
@@ -81,8 +80,8 @@ Verificación:
 ```bash
 git --version
 ```
-
 Resultado obtenido:
+![Git Version](imagenes/git-version.png)
 
 ```text
 git version 2.25.1
@@ -97,6 +96,7 @@ Comando ejecutado:
 ```bash
 docker run hello-world
 ```
+![Hello World](imagenes/hello-world.png)
 
 Resultado:
 
@@ -126,7 +126,7 @@ Comando ejecutado:
 ```bash
 docker ps
 ```
-
+![Docker PS](imagenes/docker-ps.png)
 Resultado:
 
 Los contenedores permanecieron en estado activo y disponibles para su utilización.
